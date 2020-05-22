@@ -21,7 +21,7 @@ $contenuSite = array(
   "artiste" => array(
           "artiste-1" => array(
                 "nom" => "Elna Bernina",
-                "figure-oeuvre" => "<img src='images/peinture-bernina.jpg' alt='peinture de montagnes'>
+                "figure-oeuvre" => "<img class='sample' src='templates/img/peinture-bernina.jpg' alt='peinture de montagnes'>
                                     <figcaption>La montagne</figcaption>",
                 "biographie" => "<p><span>\"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
                                     adipisci velit...\"</span></p>
@@ -33,7 +33,7 @@ $contenuSite = array(
               ),
           "artiste-2" => array(
             "nom" => "Chèvre Seguin",
-            "figure-oeuvre" => "<img src='images/peinture-bernina.jpg' alt='peinture de montagnes'>
+            "figure-oeuvre" => "<img class='sample' src='img/bayard.jpg' alt='gravure bayard'>
                                 <figcaption>La montagne</figcaption>",
               "biographie" => "<p><span>\"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
                                 adipisci velit...\"</span></p>

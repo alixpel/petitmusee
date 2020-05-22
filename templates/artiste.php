@@ -6,16 +6,20 @@
   <main>
     <div class="container">
 
-      <div class="nom-artiste">
-        <h3><?php echo $contenuArtiste["nom"]?></h3>
-      </div>
+      <div class="contenu-artiste">
 
-      <figure class="figure-oeuvre">
-        <?php echo $contenuArtiste["figure-oeuvre"]?>
-      </figure>
+        <div class="nom-artiste">
+          <h3><?php echo $contenuArtiste["nom"]?></h3>
+        </div>
 
-      <div class="texte-biographie-complete">
-        <?php echo $contenuArtiste["biographie"]?>
+        <figure class="figure-oeuvre">
+          <?php echo $contenuArtiste["figure-oeuvre"]?>
+        </figure>
+
+        <div class="texte-biographie-complete">
+          <?php echo $contenuArtiste["biographie"]?>
+        </div>
+
       </div>
 
     </div>

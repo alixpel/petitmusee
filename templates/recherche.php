@@ -2,9 +2,7 @@
 
   <main>
     <div class="recherche-artiste">
-      <?php
-        echo $contenuSite["recherche"]["sous-titre"];
-       ?>
+      <h3><?php  echo $contenuSite["recherche"]["sous-titre"]; ?></h3>
     </div>
     <div class="menu-recherche">
       <?php
