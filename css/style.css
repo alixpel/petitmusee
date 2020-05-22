@@ -72,6 +72,42 @@ header {
 	padding: 2rem 0rem 2rem 0rem;
 }
 
+.musee-image {
+}
+
+.texte-accueil {
+	line-height: 1.5rem;
+	margin: auto;
+	margin-top: 2rem;
+	margin-bottom: 1.5rem;
+	text-align: center;
+	width: 70%;
+}
+
+footer {
+	background-color: #5c74b7;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 2rem 0rem 1rem 0.2rem;
+}
+
+.address-group {
+	margin: auto;
+	text-align: center;
+	width: 90%;
+}
+
+.adresse {
+	font-size: 0.9rem;
+	line-height: 1.3rem;
+}
+
+.cgu {
+	font-size: 0.8rem;
+	margin-top: 1rem;
+}
+
 /* NAV */
 
 .container nav {
@@ -86,20 +122,78 @@ header {
 	justify-content: space-between;
 }
 
-.container nav li {
-	
+.container nav li a {
+	background-color: rgba(255, 255, 255, 0.7);
+	border-radius: 0.7rem;
+	color: rgb(60, 60, 60);
+	padding: 0.3rem 1rem 0.2rem 1rem;
+}
+
+.container nav li a:hover {
+	background-color: rgba(255, 255, 255, 1);
+}
+
+.container nav a:visited {
+	color: rgb(60, 60, 60);
+}
+
+.footer nav {
+	margin: auto;
+	width: 70%;
+}
+
+.footer nav ul {
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.footer nav li a {
+	background-color: rgba(255, 255, 255, 0.7);
+	border-radius: 0.7rem;
+	color: rgb(60, 60, 60);
+	font-size: 0.8rem;
+	padding: 0.3rem 1rem 0.2rem 1rem;
+}
+
+.footer nav li a:hover {
+	background-color: rgba(255, 255, 255, 1);
+}
+
+.footer nav a:visited {
+	color: rgb(60, 60, 60);
 }
 
 /* TITLES */
 
 h1 {
-	font-size: 2rem;
+	color: #b1a898;
+	font-size: 2.5rem;
+	font-weight: 600;
 	margin-bottom: 2rem;
 	margin-top: 1rem;
 	text-align: center;
 }
 
+h2 {
+	font-size: 3rem;
+	margin-bottom: 0.5rem;
+	margin-top: 0.5rem;
+	text-align: center;
+}
+
 /* TEXT */
+
+.texte-accueil p {
+
+}
+
+/* LINKS */
+
+a {
+	text-decoration: none;
+}
 
 /* ICONS */
 

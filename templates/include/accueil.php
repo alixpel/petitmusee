@@ -3,7 +3,7 @@
   <main>
         <div class="container">
             <h1><?php echo $contenuSite["accueil"]["titre"]?></h1>
-            <div>
+            <div class="texte-accueil">
                 <?php
                   echo $contenuSite["accueil"]["texte"]
                  ?>

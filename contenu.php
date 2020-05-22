@@ -3,7 +3,8 @@
 $contenuSite = array(
   "accueil" => array(
         "titre" => $nom_du_musee,
-        "sous-titre" => "Le Musée",
+        "sous-titre" => "<h2>Le Musée</h2>",
+        "musee-img" => "<img src='templates/img/musee.jpg' alt='photo du musée alix pelletier'>",
         "texte" => "Lorem ipsum dolor sit amet. Integer rhoncus ornare dolor, at aliquam erat eleifend a. Morbi sed orci aliquam, fringilla nunc sed, ultrices tortor. In aliquam porttitor mauris eget laoreet.<br> In tincidunt quam vulputate turpis consequat feugiat. Nulla faucibus lectus in pharetra aliquet. Vivamus vehicula, eros vel vulputate tristique, lorem magna placerat diam, id pretium tellus magna et nisl. Fusce ornare tincidunt erat, in luctus sem dignissim eu. Nulla id orci ut tellus cursus tempus. Nulla at nunc consectetur, scelerisque erat sed, rutrum lacus. Nullam nec neque facilisis ex scelerisque mollis sit amet sit amet arcu. Ut volutpat metus eu eleifend euismod. Nunc dapibus et mi in cursus. Ut nunc magna, gravida vitae quam quis, consequat maximus ipsum. Cras mi odio, commodo sed massa at, blandit pellentesque nibh. Nunc sodales, dolor nec facilisis ultricies, eros tortor vestibulum sapien, id egestas risus turpis vitae tellus.",
       ),
 
