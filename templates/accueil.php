@@ -3,8 +3,8 @@
   <main>
     <div class="musee-image">
       <?php
-        echo $contenuSite["accueil"]["sous-titre"];
         echo $contenuSite["accueil"]["musee-img"];
+        echo $contenuSite["accueil"]["sous-titre"];
        ?>
     </div>
     <div class="container">

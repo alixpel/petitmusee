@@ -13,9 +13,9 @@ $contenuSite = array(
         "menu-deroulant" => "<select name='formal' onchange='javascript:handleSelect(this)'>
                               <option disabled='disabled' default='true' disabled selected>Choisissez</option>
                               <option value='artiste1'>Elna Bernina</option>
-                              <option value='artiste1'>Rat Musqué</option>
-                              <option value='artiste1'>Chêvre Seguin</option>
-                              <option value='artiste1'>Fran Fine</option>
+                              <option value='artiste2'>Rat Musqué</option>
+                              <option value='artiste3'>Chèvre Seguin</option>
+                              <option value='artiste4'>Dolores Ipsum</option>
                             </select>"
         ),
   "artiste" => array(
@@ -32,9 +32,9 @@ $contenuSite = array(
                                     <p>Nullam nec aliquet risus, nec iaculis purus. Proin odio neque, sodales eu convallis at, tincidunt sit amet lacus. Nulla rutrum velit mi, eu tempus elit imperdiet ac. Pellentesque suscipit lectus ac urna tincidunt, quis lacinia lorem tincidunt. Cras cursus, metus vel suscipit ultricies, felis felis iaculis arcu, vitae tempor felis est in massa. Fusce dictum ullamcorper pellentesque. Praesent id dolor pharetra risus tincidunt faucibus. Quisque consectetur, dolor ac euismod convallis, ligula risus vulputate ipsum, vel hendrerit enim enim nec sapien. In posuere porta maximus. Pellentesque quis ornare lorem, nec vestibulum est.</p>",
               ),
           "artiste-2" => array(
-            "nom" => "Chèvre Seguin",
-            "figure-oeuvre" => "<img class='sample' src='img/bayard.jpg' alt='gravure bayard'>
-                                <figcaption>La montagne</figcaption>",
+            "nom" => "Rat Musqué",
+            "figure-oeuvre" => "<img class='sample' src='templates/img/bayard.jpg' alt='gravure bayard'>
+                                <figcaption>Le chevalier Bayard</figcaption>",
               "biographie" => "<p><span>\"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
                                 adipisci velit...\"</span></p>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla molestie imperdiet purus, sed convallis dolor rutrum a. Etiam molestie nibh quam, sit amet tincidunt velit interdum et. Mauris blandit est et dui aliquam mollis. Aliquam a ullamcorper velit. Donec condimentum risus et nisi posuere pulvinar. Maecenas malesuada, sem eu ultrices eleifend, eros felis consequat lacus, sit amet tempus orci eros et urna. Donec pharetra justo sed ligula fermentum aliquam. Morbi eget augue ante. Nulla sollicitudin tellus neque. Integer imperdiet varius dui, vel lacinia dolor viverra vitae. Cras vestibulum laoreet turpis vel ornare. Nunc quis velit id orci tincidunt pulvinar.</p>

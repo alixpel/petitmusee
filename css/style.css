@@ -53,26 +53,24 @@ table {
 /* DIVISIONS */
 
 body {
-  background-color: rgb(250, 250, 250);
+  background-color: #EAEBED;
 	font-family: 'Montserrat', sans-serif;
 }
 
 .covid-banner {
-	background-color: rgb(200, 200, 200);
-	line-height: 1.4rem;
-	padding: 1rem 0rem 2rem 0rem;
+	background-color: #A4969B;
+	font-weight: 600;
+	line-height: 1.3rem;
+	padding: 1rem 0rem 1.5rem 0rem;
 	text-align: center;
 }
 
 header {
-	background-color: #5c74b7;
+	background-color: #009FB7;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	padding: 2rem 0rem 2rem 0rem;
-}
-
-.musee-image {
 }
 
 .texte-accueil {
@@ -118,7 +116,7 @@ header {
 }
 
 footer {
-	background-color: #5c74b7;
+	background-color: #878C8F;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -157,7 +155,7 @@ footer {
 
 .container nav li a {
 	background-color: rgba(255, 255, 255, 0.7);
-	border-radius: 0.7rem;
+	border-radius: 0.15rem;
 	color: rgb(60, 60, 60);
 	padding: 0.5rem 1rem 0.5rem 1rem;
 	text-decoration: none;
@@ -190,7 +188,7 @@ footer nav li a {
 	border-radius: 0.7rem;
 	color: rgb(60, 60, 60);
 	font-size: 0.8rem;
-	padding: 0.3rem 1rem 0.2rem 1rem;
+	padding: 0.3rem 1rem 0.3rem 1rem;
 	text-decoration: none;
 }
 
@@ -205,18 +203,20 @@ footer nav a:visited {
 /* TITLES */
 
 h1 {
-	color: #b1a898;
-	font-size: 4.5rem;
+	color: #EAEBED;
+	font-size: 3.2rem;
 	font-weight: 400;
 	margin-bottom: 4rem;
-	margin-top: 5rem;
+	margin-top: 2rem;
 	text-align: center;
 }
 
 h2 {
-	font-size: 3rem;
+	color: #fa8072a1;
+	font-size: 7rem;
+	font-weight: 500;
 	margin-bottom: 0.5rem;
-	margin-top: 0.5rem;
+	margin-top: -7.5rem;
 	text-align: center;
 }
 
@@ -283,7 +283,8 @@ select {
 	border-radius: 0.3rem;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1rem;
-	padding: 0.2rem 0.5rem;
+	padding: 0.4rem 3rem 0.4rem 6rem;
+	text-align: center;
 }
 
 option {

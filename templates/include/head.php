@@ -18,9 +18,14 @@
     <div class="covid-banner">
       <p> ALERTE INFO COVID-19 &nbsp<i class="fas fa-viruses fa-2x"></i><br>
       RÉOUVERTURE DES MUSÉES DÉPARTEMENTAUX À PARTIR DU 18 MAI (voir infos pratiques de chaque musée).<br>
-      Et toujours LA CULTURE S'INVITE CHEZ VOUS... sur musees.isere et culture.isere,<br>
-      pour continuer à vous cultiver autrement ! INFOS CORONAVIRUS sur www.isere.fr</p>
+      Et toujours LA CULTURE S'INVITE CHEZ VOUS... sur musees.isere, pour continuer à vous cultiver autrement ! INFOS sur www.isere.fr</p>
       <button type="button" class="acceptbutton">C'est noté !</button>
+      <script>
+      // Bannière à covid
+      document.querySelector('.acceptbutton').addEventListener('click', function(){
+          document.querySelector('.covid-banner').style.display = "none";
+      });
+      </script>
     </div>
     <header>
       <div class="container">
