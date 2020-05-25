@@ -16,9 +16,20 @@
           <?php echo $contenuArtiste["figure-oeuvre"]?>
         </figure>
 
-        <div class="texte-biographie-complete">
-          <?php echo $contenuArtiste["biographie"]?>
+        <div class="texte-et-aside">
+          
+          <div class="texte-biographie-complete">
+            <?php echo $contenuArtiste["biographie"]?>
+          </div>
+
+          <div class="aside">
+            <?php echo $contenuArtiste["aside"]["portrait"] ?>
+            <?php echo $contenuArtiste["aside"]["citation"] ?>
+          </div>
+
         </div>
+
+
 
       </div>
 

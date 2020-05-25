@@ -73,6 +73,12 @@ header {
 	padding: 2rem 0rem 2rem 0rem;
 }
 
+.head-hr {
+	background-color: white;
+	height: 0.5rem;
+	width: 100%;
+}
+
 .texte-accueil {
 	line-height: 1.5rem;
 	margin: auto;
@@ -83,9 +89,13 @@ header {
 }
 
 .contenu-artiste {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
 	margin: auto;
 	margin-top: 2rem;
-	width: 80%;
+	width: 76%;
 }
 
 .nom-artiste {
@@ -97,7 +107,31 @@ header {
 }
 
 .texte-biographie-complete {
+	font-size: 0.95rem;
+	line-height: 1.3rem;
 	margin-bottom: 2rem;
+	text-align: justify;
+}
+
+.texte-et-aside {
+	align-items: flex-start;
+	display: flex;
+	flex-direction: row;
+	margin-top: 1rem;
+}
+
+.citation {
+	margin-bottom: 0.7rem;
+	text-align: left;
+	text-indent: 6rem;
+}
+
+.aside {
+	display: flex;
+	flex-direction: column;
+	float: right;
+	justify-content: center;
+	margin: 0rem 0rem 0rem 0.8rem;
 }
 
 .recherche-artiste {
@@ -155,7 +189,8 @@ footer {
 
 .container nav li a {
 	background-color: rgba(255, 255, 255, 0.7);
-	border-radius: 0.15rem;
+	border: 0.5px solid rgba(255, 255, 255, 0.9);
+	border-radius: 1.2rem;
 	color: rgb(60, 60, 60);
 	padding: 0.5rem 1rem 0.5rem 1rem;
 	text-decoration: none;
@@ -233,8 +268,20 @@ h3 {
 
 /* TEXT */
 
-.texte-accueil p {
+p {
+	text-indent: 0.5rem;
+}
 
+.aside p {
+	font-size: 0.8rem;
+	line-height: 1.25rem;
+	text-align: center;
+}
+
+span {
+	color: rgb(100, 100, 100);
+	font-size: 2rem;
+	font-weight: 300;
 }
 
 /* LINKS */
@@ -256,13 +303,15 @@ footer nav ul li a {
 /* ICONS */
 
 .fa-viruses {
-	color: green;
+	/* color: green; */
+	color: #FFFFFF;
+	text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
 }
 
 /* IMAGES */
 
 .sample {
-	margin-bottom: 0rem;
+	margin-bottom: -0.3rem;
 	width: 1000px;
 }
 
@@ -274,6 +323,21 @@ figcaption {
 	padding: 0.3rem 0rem;
 	text-align: center;
 	width: 1000px;
+}
+
+.portrait-artiste {
+	border-radius: 0.2rem 0.2rem 0rem 0rem;
+	margin-bottom: -0.3rem;
+	width: 200px;
+}
+
+.aside figcaption {
+	background-color: rgba(245, 245, 245);
+	color: rgb(60, 60, 60);
+	font-size: 0.8rem;
+	font-weight: 600;
+	line-height: 1.3rem;
+	width: 200px;
 }
 
 /* INPUTS / FORMS */
