@@ -17,6 +17,8 @@
 </footer>
 <!-- SCRIPTS -->
 <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-<script type="text/javascript" href="js/script.js"></script>
+
+<script type="text/javascript" src="<?php echo $_url_base . $_dossier_template ?>js/script.js"></script>
+
 </body>
 </html>

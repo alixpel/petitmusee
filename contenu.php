@@ -12,10 +12,10 @@ $contenuSite = array(
         "sous-titre" => "Recherche d‘artiste",
         "menu-deroulant" => "<select name='formal' onchange='javascript:handleSelect(this)'>
                               <option disabled='disabled' default='true' disabled selected>Choisissez</option>
-                              <option value='artiste1'>Elna Bernina</option>
-                              <option value='artiste2'>Rat Musqué</option>
-                              <option value='artiste3'>Chèvre Seguin</option>
-                              <option value='artiste4'>Dolores Ipsum</option>
+                              <option value='artiste1.php'>Elna Bernina</option>
+                              <option value='artiste2.php'>Rat Musqué</option>
+                              <option value='artiste3.php'>Chèvre Seguin</option>
+                              <option value='artiste4.php'>Dolores Ipsum</option>
                             </select>"
         ),
   "artiste" => array(

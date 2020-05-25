@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
     <!-- CSS : -->
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="<?php echo $_url_base . $_dossier_template ?>css/style.css" />
     <!-- ICONS : -->
     <link rel="icon" href="assets/photos/favicon.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/030bc59c7c.js" crossorigin="anonymous"></script>
@@ -20,16 +20,18 @@
       RÉOUVERTURE DES MUSÉES DÉPARTEMENTAUX À PARTIR DU 18 MAI (voir infos pratiques de chaque musée).<br>
       Et toujours LA CULTURE S'INVITE CHEZ VOUS... sur musees.isere, pour continuer à vous cultiver autrement ! INFOS sur www.isere.fr</p>
       <button type="button" class="acceptbutton">C'est noté !</button>
-      <script>
+      <!--<script>
       // Bannière à covid
       document.querySelector('.acceptbutton').addEventListener('click', function(){
           document.querySelector('.covid-banner').style.display = "none";
       });
-      </script>
+    </script>-->
     </div>
     <header>
       <div class="container">
         <h1><?php echo $contenuSite["accueil"]["titre"]?></h1>
         <?php include "navigation.php" ?>
+      </div>
+      <div class="head-hr">
       </div>
     </header>
