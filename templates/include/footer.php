@@ -1,3 +1,5 @@
+<div class="footer-hr">
+</div>
 <footer>
   <?php include "navigation.php" ?>
   <div class="address-group">
@@ -5,15 +7,18 @@
       <p class="footer-text">
         Musée Alix Pelletier<br>
         69, rue de la République<br>
-        38260 LA CÔTE SAINT-ANDRE
+        38260 La Côte Saint André
       </p>
-      <p><a href="#"><i class="fab fa-facebook"></i> facebook</a></p>
-      <p><a href="#"><i class="fab fa-twitter"></i> twitter</a></p>
     </div>
-    <div class="cgu">
-      <p class="footer-text">© alixpelletier <?php echo date("Y"); ?></p>
+    <div class="social-media">
+      <p class="footer-text"><a href="#"><i class="fab fa-facebook"></i> facebook</a></p>
+      <p class="footer-text"><a href="#"><i class="fab fa-twitter"></i> twitter</a></p>
     </div>
   </div>
+  <div class="cgu">
+    <p class="footer-text">© alixpelletier <?php echo date("Y"); ?></p>
+  </div>
+
 </footer>
 <!-- SCRIPTS -->
 <script src="https://code.jquery.com/jquery-3.4.1.js"></script>

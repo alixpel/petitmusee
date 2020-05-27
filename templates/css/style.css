@@ -163,15 +163,25 @@ header .container {
 	width: max-content;
 }
 
+.footer-hr {
+	background-color: white;
+	height: 0.5rem;
+	width: 100%;
+}
+
 footer {
 	background-color: #878C8F;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	padding: 2rem 0rem 1rem 0.2rem;
+	padding: 0rem 0rem 1rem 0.2rem;
 }
 
 .address-group {
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 	margin: auto;
 	text-align: center;
 	width: 90%;
@@ -183,8 +193,9 @@ footer {
 }
 
 .cgu {
-	font-size: 0.8rem;
+	font-size: 0.9rem;
 	margin-top: 1rem;
+	text-align: center;
 }
 
 /* NAV */
@@ -220,10 +231,12 @@ footer {
 }
 
 footer nav {
+	background-color: #adb0b7;
 	margin: auto;
-	margin-bottom: 2.5rem;
-	margin-top: 1rem;
-	width: 70%;
+	margin-bottom: 2rem;
+	margin-top: 0rem;
+	padding: 1.2rem 3rem 1.2rem 3rem;
+	width: 93%;
 }
 
 footer nav ul {
@@ -307,12 +320,12 @@ footer nav ul li a {
 	text-decoration: none;
 }
 
-.adresse p a {
+.footer-text a {
 	color: rgb(10, 10, 10);
 	text-decoration: none;
 }
 
-.adresse p a:visited {
+.footer-text a:visited {
 	color: rgb(10, 10, 10);
 }
 
