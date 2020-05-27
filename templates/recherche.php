@@ -10,7 +10,7 @@
         <option disabled='disabled' default='true' disabled selected>Choisissez</option>
         <?php
           foreach ($contenuSite["artiste"] as $key => $value) {
-            echo "<option value='artiste.php?artisteChoisi=$key'>$key</option>";
+            echo "<option value='lien_artiste.php?artisteChoisi=$key'>$key</option>";
           };
         ?>
       </select>
