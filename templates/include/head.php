@@ -19,7 +19,7 @@
   </head>
   <body>
     <div class="covid-banner">
-      <p> ALERTE INFO COVID-19 &nbsp&nbsp<i class="fas fa-viruses fa-2x"></i><br>
+      <p>INFO COVID-19 &nbsp&nbsp<i class="fas fa-viruses fa-lg"></i>&nbsp
       RÉOUVERTURE DES MUSÉES DÉPARTEMENTAUX À PARTIR DU 18 MAI (voir infos pratiques de chaque musée).<br>
       Et toujours LA CULTURE S'INVITE CHEZ VOUS... sur musees.isere, pour continuer à vous cultiver autrement ! INFOS sur www.isere.fr</p>
       <button type="button" class="acceptbutton">C'est noté !</button>
@@ -32,7 +32,8 @@
     </div>
     <header>
       <div class="container">
-        <h1><?php echo $contenuSite["accueil"]["titre"]?></h1>
+        <!-- <h1><?php// echo $contenuSite["accueil"]["titre"]?></h1> -->
+        <img class="logo" src="<?php echo $_url_base . $_dossier_template ?>img/logomusee.png" alt="">
         <?php include "navigation.php" ?>
       </div>
     </header>

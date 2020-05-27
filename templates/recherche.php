@@ -3,18 +3,17 @@
   <main>
     <div class="recherche-artiste">
       <h3><?php  echo $contenuSite["recherche"]["sous-titre"]; ?></h3>
-      <!-- <script>
-        // Option Select page lesartistes.php
-        function handleSelect(elm)
-        {
-        window.location = elm.value+".php";
-        }
-      </script> -->
+
     </div>
     <div class="menu-recherche">
-      <?php
-        echo $contenuSite["recherche"]["menu-deroulant"];
-       ?>
+      <select name='formal' onchange='javascript:handleSelect(this)'>
+        <option disabled='disabled' default='true' disabled selected>Choisissez</option>
+        <?php
+          foreach ($contenuSite["artiste"] as $key => $value) {
+            echo "<option value='artiste.php?artisteChoisi=$key'>$key</option>";
+          };
+        ?>
+      </select>
     </div>
   </main>
 

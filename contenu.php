@@ -4,19 +4,19 @@ $contenuSite = array(
   "accueil" => array(
         "titre" => $nom_du_musee,
         "sous-titre" => "<h2>Le Musée</h2>",
-        "musee-img" => "<img src='templates/img/musee.jpg' alt='photo du musée alix pelletier'>",
+        "musee-img" => "<img class=\"photo-musee\" src='templates/img/musee.jpg' alt='photo du musée alix pelletier'>",
         "texte" => "Lorem ipsum dolor sit amet. Integer rhoncus ornare dolor, at aliquam erat eleifend a. Morbi sed orci aliquam, fringilla nunc sed, ultrices tortor. In aliquam porttitor mauris eget laoreet.<br> In tincidunt quam vulputate turpis consequat feugiat. Nulla faucibus lectus in pharetra aliquet. Vivamus vehicula, eros vel vulputate tristique, lorem magna placerat diam, id pretium tellus magna et nisl. Fusce ornare tincidunt erat, in luctus sem dignissim eu. Nulla id orci ut tellus cursus tempus. Nulla at nunc consectetur, scelerisque erat sed, rutrum lacus. Nullam nec neque facilisis ex scelerisque mollis sit amet sit amet arcu. Ut volutpat metus eu eleifend euismod. Nunc dapibus et mi in cursus. Ut nunc magna, gravida vitae quam quis, consequat maximus ipsum. Cras mi odio, commodo sed massa at, blandit pellentesque nibh. Nunc sodales, dolor nec facilisis ultricies, eros tortor vestibulum sapien, id egestas risus turpis vitae tellus.",
       ),
 
   "recherche" => array(
         "sous-titre" => "Recherche d‘artiste",
-        "menu-deroulant" => "<select name='formal' onchange='javascript:handleSelect(this)'>
+        /*"menu-deroulant" => "<select name='formal' onchange='javascript:handleSelect(this)'>
                               <option disabled='disabled' default='true' disabled selected>Choisissez</option>
                               <option value='artiste1.php'>Elna Bernina</option>
                               <option value='artiste2.php'>Rat Musqué</option>
                               <option value='artiste3.php'>Chèvre Seguin</option>
                               <option value='artiste4.php'>Dolores Ipsum</option>
-                            </select>"
+                            </select>"*/
         ),
   "artiste" => array(
           "artiste-1" => array(

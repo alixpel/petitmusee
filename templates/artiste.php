@@ -1,6 +1,5 @@
 <?php
     include "include/head.php";
-
 ?>
 
   <main>
@@ -17,7 +16,7 @@
         </figure>
 
         <div class="texte-et-aside">
-          
+
           <div class="texte-biographie-complete">
             <?php echo $contenuArtiste["biographie"]?>
           </div>
