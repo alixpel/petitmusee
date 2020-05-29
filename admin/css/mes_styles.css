@@ -1,0 +1,84 @@
+/* parts */
+
+.container-head {
+  margin:auto;
+  text-align: center;
+}
+
+.container {
+  margin: auto;
+  width: 80%;
+}
+
+footer {
+  background:blue;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  margin-top:30px;
+}
+
+/* texte */
+
+h1 {
+  background: pink;
+  color:#fff;
+  font-size: 25px;
+  padding: 1em;
+
+}
+
+main p {
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+
+.majuscule {
+  text-transform: uppercase;
+}
+
+/* nav */
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul:after {
+  content : '';
+  display: block;
+  clear:both;
+}
+
+nav ul li {
+  float:left;
+  margin-left:10px
+}
+
+nav ul li:first-child {
+  float:left;
+  margin-left:0px
+}
+
+nav ul li a{
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color:#000000;
+  border: 1px #ccc solid;
+
+  transition-property: transform;
+  transition-duration: 0.2s;
+}
+
+nav ul li a:hover{
+  background-color:#ccc;
+  transform: scale(1.2, 1.2);
+}
+
+/* tableaux */
+
+table td {
+    border: #aaaaaa 1px solid;
+    padding: 2px 15px;
+}
