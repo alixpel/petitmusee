@@ -1,5 +1,9 @@
 /* parts */
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 .container-head {
   margin:auto;
   text-align: center;
@@ -8,6 +12,20 @@
 .container {
   margin: auto;
   width: 80%;
+}
+
+.identifiants {
+  border: 2px solid grey;
+  border-radius: 5px;
+  margin: 0.5rem;
+  padding: 1rem;
+}
+
+.administrer {
+  border: 2px solid grey;
+  border-radius: 5px;
+  margin: 0.5rem;
+  padding: 1rem;
 }
 
 footer {
@@ -75,6 +93,24 @@ nav ul li a:hover{
   background-color:#ccc;
   transform: scale(1.2, 1.2);
 }
+
+/* inputs */
+
+.error {
+  background-color: gold;
+  border: 1px solid grey;
+  border-radius: 0.2rem;
+  color: blue;
+  padding: 0.4rem;
+  text-align: center;
+  width: 50%;
+}
+
+.erreurchamp {
+  color: red;
+  font-weight: bold;
+}
+
 
 /* tableaux */
 

@@ -16,6 +16,7 @@
     </div>
   </div>
   <div class="cgu">
+    <p class="footer-text"><a href="<?php echo $_url_base ?>admin/connexion.php">admin</a></p>
     <p class="footer-text">© alixpelletier <?php echo date("Y"); ?></p>
   </div>
 
