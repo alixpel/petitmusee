@@ -39,7 +39,7 @@ verif_connection();
         <?php
         // envoi de l'image :
         if(!empty($_FILES["mon_fichier"]) && $_FILES["mon_fichier"]["error"] == 0 ) {
-          $nom_dossier_destination = "fichiers_envoyes";// dossier de destination
+          $nom_dossier_destination = "fichiers_envoyes/fichiers";// dossier de destination
           $chemin_dossier_destination = __DIR__ . "/" . $nom_dossier_destination; // dir = cste qui indique chemin de destination
           $chemin_fichier_destination = $chemin_dossier_destination . "/" . $_FILES["mon_fichier"]["name"];// nouveau nom
 
@@ -48,7 +48,7 @@ verif_connection();
         }
          ?>
 
-         <div class="resultat_mon_texte">
+          <div class="resultat_mon_texte">
           <?php
           if (isset($_POST['mon_texte'])) {
              echo $_POST["mon_texte"];
@@ -61,9 +61,8 @@ verif_connection();
           } else {
             fwrite($fichier, "aucun message" . PHP_EOL);
           }
-          ?>
-          <!-- Texte écrit dans le fichier txt : -->
-          <?php
+
+          // Texte écrit dans le fichier txt :
           if (is_file("fichiers_envoyes/textes/mon_fichier_texte.txt")) {
             $contenuFichier = file_get_contents("fichiers_envoyes/textes/mon_fichier_texte.txt");
           } else {
@@ -75,6 +74,7 @@ verif_connection();
          <?php
           echo str_replace(PHP_EOL, "<br>", $contenuFichier) ;
          ?>
+         <a href="effacer_texte.php">effacer le contenu de <strong>mon_fichier_texte.txt</strong></a>
          </div>
 
 
