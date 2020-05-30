@@ -13,6 +13,9 @@
           echo $contenuSite["accueil"]["texte"];
          ?>
       </div>
+      <div class="image-envoyee">
+
+      </div>
     <div>
   </main>
 

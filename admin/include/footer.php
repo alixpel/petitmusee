@@ -1,5 +1,5 @@
 <footer>
-  &copy; 2020
+  <p>&copy; 2020 - Musée Alix Pelletier</p>
 </footer>
 
 </body>
