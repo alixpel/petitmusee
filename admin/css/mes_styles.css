@@ -106,11 +106,10 @@ nav ul li a:hover{
   width: 50%;
 }
 
-.erreurchamp {
+.erreurchamp, input:invalid {
   color: red;
   font-weight: bold;
 }
-
 
 /* tableaux */
 

@@ -7,7 +7,7 @@ if(
     $_POST["email"] == "admin@map.com" &&
     $_POST["password"] == "php2020"
     ) {
-    $_SESSION["a_le_droit_de_se_connecter"] == TRUE;
+    $_SESSION["a_le_droit_de_se_connecter"] = TRUE;
     $_SESSION["emailadmin"] = $_POST["email"];
     header ("location:admin.php");
 

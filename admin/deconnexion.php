@@ -1,6 +1,5 @@
 <?php
-$_SESSION = [];
 require "config.php";
-session_destroy();
+unset($_SESSION["a_le_droit_de_se_connecter"]);
+// session_destroy();
 verif_connection();
-header ("location:connexion.php");

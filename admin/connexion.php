@@ -1,4 +1,7 @@
-<?php include "include/head.php" ?>
+<?php include "include/head.php";
+
+
+?>
 
 
   <div class="main">
@@ -23,11 +26,11 @@
 
       <div class="champ <?php addClassErreurChamp("email"); ?>">
         <label for="email">email : </label>
-        <input name="email" type="email"><br>
+        <input name="email" type="email" required><br>
       </div>
       <div class="champ <?php addClassErreurChamp("password"); ?>">
         <label for="password">mot de passe : </label>
-        <input name="password" type="password"><br>
+        <input name="password" type="password" required><br>
       </div>
 
       <button type="submit">valider</button>

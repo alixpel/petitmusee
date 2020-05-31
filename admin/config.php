@@ -8,4 +8,5 @@ function verif_connection() {
 }
 verif_connection();
 
+
  ?>
