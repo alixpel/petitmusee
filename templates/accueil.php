@@ -13,8 +13,11 @@
           echo $contenuSite["accueil"]["texte"];
          ?>
       </div>
-      <div class="image-envoyee">
-
+      <div class="sent-content">
+          <?php echo nl2br(file_get_contents(__DIR__ . '/../admin/fichiers_envoyes/textes/mon_fichier_texte.txt'));
+          //echo __DIR__ . '/../admin/fichiers_envoyes/textes/mon_fichier_texte.txt';
+          ?>
+        <img src="<?php echo $_url_base; ?>/admin/fichiers_envoyes/fichiers/accueil.jpg" alt="">
       </div>
     <div>
   </main>
