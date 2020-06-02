@@ -6,7 +6,7 @@ function verif_connection() {
     header("location:connexion.php");
   }
 }
-verif_connection();
+// verif_connection();
 
 
  ?>
