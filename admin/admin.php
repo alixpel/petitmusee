@@ -15,6 +15,12 @@ verif_connection();
               <td><?php echo $_SESSION["emailadmin"] ?></td>
           </tr>
       </table>
+      <hr>
+      <table>
+        <tr>
+          <td><a href="sql/index.php">Base de données</a></td>
+        </tr>
+      </table>
     </div>
 
     <div class="administrer">

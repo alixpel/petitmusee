@@ -15,14 +15,14 @@ body {
 }
 
 .identifiants {
-  border: 2px solid grey;
+  border: 2.5px solid grey;
   border-radius: 5px;
   margin: 0.5rem;
   padding: 1rem;
 }
 
 .administrer {
-  border: 2px solid grey;
+  border: 2.5px solid grey;
   border-radius: 5px;
   margin: 0.5rem;
   padding: 1rem;
@@ -94,6 +94,13 @@ nav ul li a:hover{
   transform: scale(1.2, 1.2);
 }
 
+/* liens */
+
+a, a:visited {
+  color: black;
+  text-decoration: none;
+}
+
 /* inputs */
 
 .error {
@@ -114,6 +121,7 @@ nav ul li a:hover{
 /* tableaux */
 
 table td {
-    border: #aaaaaa 1px solid;
+    border: 1.5px solid grey;
+    border-radius: 3px;
     padding: 2px 15px;
 }
