@@ -1,3 +1,4 @@
+<?php require "newsletter.php" ?>
 <div class="footer-hr">
 </div>
 <footer>
@@ -11,6 +12,8 @@
       </p>
     </div>
     <div class="social-media">
+      <p class="footer-text"><form class="" action="#" method="post"><input type="email" name="email" class="newsletter" value=""><input type="submit" name="" class="send-newsletter" value="">
+    </form></p>
       <p class="footer-text"><a href="#"><i class="fab fa-facebook"></i> facebook</a></p>
       <p class="footer-text"><a href="#"><i class="fab fa-twitter"></i> twitter</a></p>
     </div>
